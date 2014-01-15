@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="student_dbDataSet4" targetNamespace="http://tempuri.org/student_dbDataSet4.xsd" xmlns:mstns="http://tempuri.org/student_dbDataSet4.xsd" xmlns="http://tempuri.org/student_dbDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="student_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="student_dbConnectionString (MySettings)" PropertyReference="ApplicationSettings.student_management_system.My.MySettings.GlobalReference.Default.student_dbConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="student_attendancesTableAdapter" GeneratorDataComponentClassName="student_attendancesTableAdapter" Name="student_attendances" UserDataComponentName="student_attendancesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="student_dbConnectionString (MySettings)" DbObjectName="student_attendances" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT attendance_date, student_name, Attendance FROM student_attendances</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="attendance_date" DataSetColumn="attendance_date" />
+              <Mapping SourceColumn="student_name" DataSetColumn="student_name" />
+              <Mapping SourceColumn="Attendance" DataSetColumn="Attendance" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="student_dbConnectionString (MySettings)" DbObjectName="student_attendances" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="FillBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT attendance_date, student_name, Attendance FROM student_attendances</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="student_dbDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="student_dbDataSet4" msprop:Generator_UserDSName="student_dbDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="student_attendances" msprop:Generator_TableClassName="student_attendancesDataTable" msprop:Generator_TableVarName="tablestudent_attendances" msprop:Generator_RowChangedName="student_attendancesRowChanged" msprop:Generator_TablePropName="student_attendances" msprop:Generator_RowDeletingName="student_attendancesRowDeleting" msprop:Generator_RowChangingName="student_attendancesRowChanging" msprop:Generator_RowEvHandlerName="student_attendancesRowChangeEventHandler" msprop:Generator_RowDeletedName="student_attendancesRowDeleted" msprop:Generator_RowClassName="student_attendancesRow" msprop:Generator_UserTableName="student_attendances" msprop:Generator_RowEvArgName="student_attendancesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="attendance_date" msprop:Generator_ColumnVarNameInTable="columnattendance_date" msprop:Generator_ColumnPropNameInRow="attendance_date" msprop:Generator_ColumnPropNameInTable="attendance_dateColumn" msprop:Generator_UserColumnName="attendance_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="student_name" msprop:Generator_ColumnVarNameInTable="columnstudent_name" msprop:Generator_ColumnPropNameInRow="student_name" msprop:Generator_ColumnPropNameInTable="student_nameColumn" msprop:Generator_UserColumnName="student_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Attendance" msprop:Generator_ColumnVarNameInTable="columnAttendance" msprop:Generator_ColumnPropNameInRow="Attendance" msprop:Generator_ColumnPropNameInTable="AttendanceColumn" msprop:Generator_UserColumnName="Attendance" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.exe.config
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.exe
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.pdb
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.xml
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.Resources.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.vbproj.GenerateResource.Cache
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.exe
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.xml
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.pdb
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.LoginForm1.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.SplashScreen1.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.Form1.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.add_student.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.list_students.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student_db.mdb
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\RdlCompile.cache
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\RdlCompile.compiled
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.Form2.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.edit_student.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.enter_attendance.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.view_attendance.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.enter_student_fee.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.view_fees.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.view_performance.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student_management_system.view_consolidated_student_report.resources
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.exe.manifest
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\bin\Debug\student management system.application
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.exe.manifest
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.application
+C:\Users\samuel\Desktop\windows apps\student management system\student management system\obj\Debug\student management system.vbprojResolveAssemblyReference.cache
